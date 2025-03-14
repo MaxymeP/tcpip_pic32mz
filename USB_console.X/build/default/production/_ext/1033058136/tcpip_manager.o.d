@@ -56,6 +56,8 @@ build/default/production/_ext/1033058136/tcpip_manager.o: \
  ../src/config/default/library/tcpip/tcp.h \
  ../src/config/default/library/tcpip/udp.h \
  ../src/config/default/library/tcpip/icmp.h \
+ ../src/config/default/library/tcpip/sntp.h \
+ ../src/config/default/library/tcpip/tcpip_announce.h \
  ../src/config/default/library/tcpip/lldp.h \
  ../src/config/default/library/tcpip/tcpip_commands.h \
  ../src/config/default/library/tcpip/src/tcpip_types.h \
@@ -63,17 +65,56 @@ build/default/production/_ext/1033058136/tcpip_manager.o: \
  ../src/config/default/library/tcpip/src/tcpip_heap_alloc.h \
  ../src/config/default/library/tcpip/src/tcpip_manager_control.h \
  ../src/config/default/library/tcpip/src/tcpip_helpers_private.h \
+ ../src/config/default/library/tcpip/src/tcpip_announce_manager.h \
  ../src/config/default/library/tcpip/src/ipv4_manager.h \
  ../src/config/default/library/tcpip/src/icmp_manager.h \
+ ../src/config/default/library/tcpip/src/dhcp_manager.h \
  ../src/config/default/library/tcpip/src/arp_manager.h \
+ ../src/config/default/library/tcpip/src/dns_manager.h \
  ../src/config/default/library/tcpip/src/tcp_manager.h \
  ../src/config/default/library/tcpip/src/tcpip_commands_manager.h \
  ../src/config/default/library/tcpip/src/udp_manager.h \
+ ../src/config/default/library/tcpip/src/sntp_manager.h \
  ../src/config/default/library/tcpip/src/lldp_manager.h \
  ../src/config/default/library/tcpip/src/tcpip_packet.h \
  ../src/config/default/library/tcpip/src/oahash.h \
  ../src/config/default/library/tcpip/src/hash_fnv.h \
- ../src/config/default/library/tcpip/src/tcpip_notify.h \
+ ../src/config/default/library/tcpip/src/tcpip_notify.h ../src/app.h \
+ ../src/stack.h ../src/app.h ../src/config/default/definitions.h \
+ ../src/config/default/crypto/crypto.h \
+ ../src/config/default/driver/ethmac/drv_ethmac.h \
+ ../src/config/default/driver/ethphy/drv_ethphy.h \
+ ../src/config/default/library/tcpip/tcpip_ethernet.h \
+ ../src/config/default/bsp/bsp.h \
+ ../src/config/default/peripheral/uart/plib_uart6.h \
+ ../src/config/default/peripheral/uart/plib_uart_common.h \
+ ../src/config/default/system/time/sys_time.h \
+ ../src/config/default/peripheral/coretimer/plib_coretimer.h \
+ ../src/config/default/library/tcpip/tcpip.h \
+ ../src/config/default/system/sys_time_h2_adapter.h \
+ ../src/config/default/system/sys_random_h2_adapter.h \
+ ../src/config/default/system/int/sys_int.h \
+ ../src/config/default/system/cache/sys_cache.h \
+ ../src/config/default/system/reset/sys_reset.h \
+ ../src/config/default/osal/osal.h \
+ ../src/config/default/system/debug/sys_debug.h \
+ ../src/config/default/system/command/sys_command.h \
+ ../src/config/default/peripheral/clk/plib_clk.h \
+ ../src/config/default/peripheral/gpio/plib_gpio.h \
+ ../src/config/default/peripheral/cache/plib_cache.h \
+ ../src/config/default/peripheral/evic/plib_evic.h \
+ ../src/config/default/driver/miim/drv_miim.h \
+ ../src/third_party/wolfssl/wolfssl/wolfcrypt/port/pic32/crypt_wolfcryptcb.h \
+ ../src/config/default/net_pres/pres/net_pres.h \
+ ../src/config/default/net_pres/pres/net_pres_encryptionproviderapi.h \
+ ../src/config/default/net_pres/pres/net_pres.h \
+ ../src/config/default/net_pres/pres/net_pres_transportapi.h \
+ ../src/config/default/net_pres/pres/net_pres_socketapi.h \
+ ../src/config/default/net_pres/pres/net_pres_socketapiconversion.h \
+ ../src/config/default/net_pres/pres/net_pres_socketapi.h \
+ ../src/config/default/system/console/sys_console.h \
+ ../src/config/default/system/console/src/sys_console_uart_definitions.h \
+ ../src/tcp_server.h \
  ../src/config/default/library/tcpip/src/tcpip_module_manager.h
 
 ../src/config/default/library/tcpip/src/tcpip_private.h:
@@ -190,6 +231,10 @@ build/default/production/_ext/1033058136/tcpip_manager.o: \
 
 ../src/config/default/library/tcpip/icmp.h:
 
+../src/config/default/library/tcpip/sntp.h:
+
+../src/config/default/library/tcpip/tcpip_announce.h:
+
 ../src/config/default/library/tcpip/lldp.h:
 
 ../src/config/default/library/tcpip/tcpip_commands.h:
@@ -204,17 +249,25 @@ build/default/production/_ext/1033058136/tcpip_manager.o: \
 
 ../src/config/default/library/tcpip/src/tcpip_helpers_private.h:
 
+../src/config/default/library/tcpip/src/tcpip_announce_manager.h:
+
 ../src/config/default/library/tcpip/src/ipv4_manager.h:
 
 ../src/config/default/library/tcpip/src/icmp_manager.h:
 
+../src/config/default/library/tcpip/src/dhcp_manager.h:
+
 ../src/config/default/library/tcpip/src/arp_manager.h:
+
+../src/config/default/library/tcpip/src/dns_manager.h:
 
 ../src/config/default/library/tcpip/src/tcp_manager.h:
 
 ../src/config/default/library/tcpip/src/tcpip_commands_manager.h:
 
 ../src/config/default/library/tcpip/src/udp_manager.h:
+
+../src/config/default/library/tcpip/src/sntp_manager.h:
 
 ../src/config/default/library/tcpip/src/lldp_manager.h:
 
@@ -225,5 +278,81 @@ build/default/production/_ext/1033058136/tcpip_manager.o: \
 ../src/config/default/library/tcpip/src/hash_fnv.h:
 
 ../src/config/default/library/tcpip/src/tcpip_notify.h:
+
+../src/app.h:
+
+../src/stack.h:
+
+../src/app.h:
+
+../src/config/default/definitions.h:
+
+../src/config/default/crypto/crypto.h:
+
+../src/config/default/driver/ethmac/drv_ethmac.h:
+
+../src/config/default/driver/ethphy/drv_ethphy.h:
+
+../src/config/default/library/tcpip/tcpip_ethernet.h:
+
+../src/config/default/bsp/bsp.h:
+
+../src/config/default/peripheral/uart/plib_uart6.h:
+
+../src/config/default/peripheral/uart/plib_uart_common.h:
+
+../src/config/default/system/time/sys_time.h:
+
+../src/config/default/peripheral/coretimer/plib_coretimer.h:
+
+../src/config/default/library/tcpip/tcpip.h:
+
+../src/config/default/system/sys_time_h2_adapter.h:
+
+../src/config/default/system/sys_random_h2_adapter.h:
+
+../src/config/default/system/int/sys_int.h:
+
+../src/config/default/system/cache/sys_cache.h:
+
+../src/config/default/system/reset/sys_reset.h:
+
+../src/config/default/osal/osal.h:
+
+../src/config/default/system/debug/sys_debug.h:
+
+../src/config/default/system/command/sys_command.h:
+
+../src/config/default/peripheral/clk/plib_clk.h:
+
+../src/config/default/peripheral/gpio/plib_gpio.h:
+
+../src/config/default/peripheral/cache/plib_cache.h:
+
+../src/config/default/peripheral/evic/plib_evic.h:
+
+../src/config/default/driver/miim/drv_miim.h:
+
+../src/third_party/wolfssl/wolfssl/wolfcrypt/port/pic32/crypt_wolfcryptcb.h:
+
+../src/config/default/net_pres/pres/net_pres.h:
+
+../src/config/default/net_pres/pres/net_pres_encryptionproviderapi.h:
+
+../src/config/default/net_pres/pres/net_pres.h:
+
+../src/config/default/net_pres/pres/net_pres_transportapi.h:
+
+../src/config/default/net_pres/pres/net_pres_socketapi.h:
+
+../src/config/default/net_pres/pres/net_pres_socketapiconversion.h:
+
+../src/config/default/net_pres/pres/net_pres_socketapi.h:
+
+../src/config/default/system/console/sys_console.h:
+
+../src/config/default/system/console/src/sys_console_uart_definitions.h:
+
+../src/tcp_server.h:
 
 ../src/config/default/library/tcpip/src/tcpip_module_manager.h:

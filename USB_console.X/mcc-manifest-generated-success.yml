@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: TCPIP_console_commande
-creation_date: 2025-01-16T11:32:48.705+01:00[Europe/Paris]
+creation_date: 2025-03-05T16:18:06.533+01:00[Europe/Paris]
 operating_system: Windows 10
 mcc_mode: IDE
 mcc_mode_version: v6.20
@@ -20,6 +20,7 @@ packs: {name: PIC32MZ-EF_DFP, version: 1.4.168}
 modules:
 - {name: csp, type: HARMONY, version: v3.18.0}
 - {name: core, type: HARMONY, version: v3.13.1}
+- {name: zlib, type: HARMONY, version: v1.3.1}
 - {name: wolfssl, type: HARMONY, version: v5.4.0}
 - {name: net, type: HARMONY, version: v3.10.1}
 - {name: bsp, type: HARMONY, version: v3.17.0}

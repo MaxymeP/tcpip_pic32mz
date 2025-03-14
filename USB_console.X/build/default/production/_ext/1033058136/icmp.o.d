@@ -56,6 +56,8 @@ build/default/production/_ext/1033058136/icmp.o: \
  ../src/config/default/library/tcpip/tcp.h \
  ../src/config/default/library/tcpip/udp.h \
  ../src/config/default/library/tcpip/icmp.h \
+ ../src/config/default/library/tcpip/sntp.h \
+ ../src/config/default/library/tcpip/tcpip_announce.h \
  ../src/config/default/library/tcpip/lldp.h \
  ../src/config/default/library/tcpip/tcpip_commands.h \
  ../src/config/default/library/tcpip/src/tcpip_types.h \
@@ -63,12 +65,16 @@ build/default/production/_ext/1033058136/icmp.o: \
  ../src/config/default/library/tcpip/src/tcpip_heap_alloc.h \
  ../src/config/default/library/tcpip/src/tcpip_manager_control.h \
  ../src/config/default/library/tcpip/src/tcpip_helpers_private.h \
+ ../src/config/default/library/tcpip/src/tcpip_announce_manager.h \
  ../src/config/default/library/tcpip/src/ipv4_manager.h \
  ../src/config/default/library/tcpip/src/icmp_manager.h \
+ ../src/config/default/library/tcpip/src/dhcp_manager.h \
  ../src/config/default/library/tcpip/src/arp_manager.h \
+ ../src/config/default/library/tcpip/src/dns_manager.h \
  ../src/config/default/library/tcpip/src/tcp_manager.h \
  ../src/config/default/library/tcpip/src/tcpip_commands_manager.h \
  ../src/config/default/library/tcpip/src/udp_manager.h \
+ ../src/config/default/library/tcpip/src/sntp_manager.h \
  ../src/config/default/library/tcpip/src/lldp_manager.h \
  ../src/config/default/library/tcpip/src/tcpip_packet.h \
  ../src/config/default/library/tcpip/src/oahash.h \
@@ -189,6 +195,10 @@ build/default/production/_ext/1033058136/icmp.o: \
 
 ../src/config/default/library/tcpip/icmp.h:
 
+../src/config/default/library/tcpip/sntp.h:
+
+../src/config/default/library/tcpip/tcpip_announce.h:
+
 ../src/config/default/library/tcpip/lldp.h:
 
 ../src/config/default/library/tcpip/tcpip_commands.h:
@@ -203,17 +213,25 @@ build/default/production/_ext/1033058136/icmp.o: \
 
 ../src/config/default/library/tcpip/src/tcpip_helpers_private.h:
 
+../src/config/default/library/tcpip/src/tcpip_announce_manager.h:
+
 ../src/config/default/library/tcpip/src/ipv4_manager.h:
 
 ../src/config/default/library/tcpip/src/icmp_manager.h:
 
+../src/config/default/library/tcpip/src/dhcp_manager.h:
+
 ../src/config/default/library/tcpip/src/arp_manager.h:
+
+../src/config/default/library/tcpip/src/dns_manager.h:
 
 ../src/config/default/library/tcpip/src/tcp_manager.h:
 
 ../src/config/default/library/tcpip/src/tcpip_commands_manager.h:
 
 ../src/config/default/library/tcpip/src/udp_manager.h:
+
+../src/config/default/library/tcpip/src/sntp_manager.h:
 
 ../src/config/default/library/tcpip/src/lldp_manager.h:
 
