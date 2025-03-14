@@ -86,7 +86,8 @@ build/default/production/_ext/1360937237/stack.o: ../src/stack.c \
  ../src/config/default/net_pres/pres/net_pres_socketapi.h \
  ../src/config/default/system/console/sys_console.h \
  ../src/config/default/system/console/src/sys_console_uart_definitions.h \
- ../src/app.h ../src/tcp_server.h
+ ../src/app.h ../src/tcp_server.h ../src/tcpclient.h ../src/udpserv.h \
+ ../src/udpclient.h
 
 ../src/app.h:
 
@@ -273,3 +274,9 @@ build/default/production/_ext/1360937237/stack.o: ../src/stack.c \
 ../src/app.h:
 
 ../src/tcp_server.h:
+
+../src/tcpclient.h:
+
+../src/udpserv.h:
+
+../src/udpclient.h:

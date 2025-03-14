@@ -2,6 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/maxime.picon/MPLABXProjects_valide/TCPIP_APP/src/app.c</file>
+            <file>file:/C:/Users/maxime.picon/MPLABXProjects_valide/TCPIP_APP/src/tcp_server.c</file>
+            <file>file:/C:/Users/maxime.picon/MPLABXProjects_valide/TCPIP_APP/src/tcp_server.h</file>
+            <file>file:/C:/Users/maxime.picon/MPLABXProjects_valide/TCPIP_APP/src/app.h</file>
+            <file>file:/C:/Users/maxime.picon/MPLABXProjects_valide/TCPIP_APP/src/stack.c</file>
+        </group>
     </open-files>
 </project-private>

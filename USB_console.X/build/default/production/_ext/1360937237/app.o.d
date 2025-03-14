@@ -86,8 +86,8 @@ build/default/production/_ext/1360937237/app.o: ../src/app.c ../src/app.h \
  ../src/config/default/net_pres/pres/net_pres_socketapi.h \
  ../src/config/default/system/console/sys_console.h \
  ../src/config/default/system/console/src/sys_console_uart_definitions.h \
- ../src/app.h ../src/tcp_server.h \
- ../src/config/default/peripheral/uart/plib_uart6.h \
+ ../src/app.h ../src/tcp_server.h ../src/tcpclient.h ../src/udpserv.h \
+ ../src/udpclient.h ../src/config/default/peripheral/uart/plib_uart6.h \
  ../src/config/default/bsp/bsp.h
 
 ../src/app.h:
@@ -275,6 +275,12 @@ build/default/production/_ext/1360937237/app.o: ../src/app.c ../src/app.h \
 ../src/app.h:
 
 ../src/tcp_server.h:
+
+../src/tcpclient.h:
+
+../src/udpserv.h:
+
+../src/udpclient.h:
 
 ../src/config/default/peripheral/uart/plib_uart6.h:
 

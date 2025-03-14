@@ -87,7 +87,8 @@ build/default/production/_ext/1171490990/exceptions.o: \
  ../src/config/default/system/console/src/sys_console_uart_definitions.h \
  ../src/app.h ../src/stack.h ../src/app.h \
  ../src/config/default/library/tcpip/tcpip.h \
- ../src/config/default/definitions.h ../src/tcp_server.h
+ ../src/config/default/definitions.h ../src/tcp_server.h \
+ ../src/tcpclient.h ../src/udpserv.h ../src/udpclient.h
 
 ../src/config/default/configuration.h:
 
@@ -276,3 +277,9 @@ build/default/production/_ext/1171490990/exceptions.o: \
 ../src/config/default/definitions.h:
 
 ../src/tcp_server.h:
+
+../src/tcpclient.h:
+
+../src/udpserv.h:
+
+../src/udpclient.h:

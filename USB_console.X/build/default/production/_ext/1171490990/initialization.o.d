@@ -89,6 +89,7 @@ build/default/production/_ext/1171490990/initialization.o: \
  ../src/app.h ../src/stack.h ../src/app.h \
  ../src/config/default/library/tcpip/tcpip.h \
  ../src/config/default/definitions.h ../src/tcp_server.h \
+ ../src/tcpclient.h ../src/udpserv.h ../src/udpclient.h \
  ../src/config/default/net_pres/pres/net_pres_enc_glue.h \
  ../src/config/default/net_pres/pres/net_pres.h \
  ../src/config/default/net_pres/pres/net_pres_encryptionproviderapi.h
@@ -280,6 +281,12 @@ build/default/production/_ext/1171490990/initialization.o: \
 ../src/config/default/definitions.h:
 
 ../src/tcp_server.h:
+
+../src/tcpclient.h:
+
+../src/udpserv.h:
+
+../src/udpclient.h:
 
 ../src/config/default/net_pres/pres/net_pres_enc_glue.h:
 

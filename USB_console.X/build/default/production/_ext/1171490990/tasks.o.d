@@ -88,6 +88,7 @@ build/default/production/_ext/1171490990/tasks.o: \
  ../src/app.h ../src/stack.h ../src/app.h \
  ../src/config/default/library/tcpip/tcpip.h \
  ../src/config/default/definitions.h ../src/tcp_server.h \
+ ../src/tcpclient.h ../src/udpserv.h ../src/udpclient.h \
  ../src/config/default/sys_tasks.h
 
 ../src/config/default/configuration.h:
@@ -277,5 +278,11 @@ build/default/production/_ext/1171490990/tasks.o: \
 ../src/config/default/definitions.h:
 
 ../src/tcp_server.h:
+
+../src/tcpclient.h:
+
+../src/udpserv.h:
+
+../src/udpclient.h:
 
 ../src/config/default/sys_tasks.h:

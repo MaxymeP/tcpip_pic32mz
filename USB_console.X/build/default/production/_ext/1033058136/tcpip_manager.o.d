@@ -114,7 +114,8 @@ build/default/production/_ext/1033058136/tcpip_manager.o: \
  ../src/config/default/net_pres/pres/net_pres_socketapi.h \
  ../src/config/default/system/console/sys_console.h \
  ../src/config/default/system/console/src/sys_console_uart_definitions.h \
- ../src/tcp_server.h \
+ ../src/tcp_server.h ../src/tcpclient.h ../src/udpserv.h \
+ ../src/udpclient.h \
  ../src/config/default/library/tcpip/src/tcpip_module_manager.h
 
 ../src/config/default/library/tcpip/src/tcpip_private.h:
@@ -354,5 +355,11 @@ build/default/production/_ext/1033058136/tcpip_manager.o: \
 ../src/config/default/system/console/src/sys_console_uart_definitions.h:
 
 ../src/tcp_server.h:
+
+../src/tcpclient.h:
+
+../src/udpserv.h:
+
+../src/udpclient.h:
 
 ../src/config/default/library/tcpip/src/tcpip_module_manager.h:

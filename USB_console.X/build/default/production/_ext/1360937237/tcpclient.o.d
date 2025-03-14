@@ -1,5 +1,5 @@
-build/default/production/_ext/1360937237/tcp_server.o: \
- ../src/tcp_server.c ../src/app.h ../src/config/default/configuration.h \
+build/default/production/_ext/1360937237/tcpclient.o: ../src/tcpclient.c \
+ ../src/app.h ../src/config/default/configuration.h \
  ../src/config/default/user.h ../src/config/default/device.h \
  ../src/config/default/toolchain_specifics.h \
  ../src/config/default/system/console/sys_console.h \

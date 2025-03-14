@@ -471,6 +471,9 @@
       <itemPath>../src/app.h</itemPath>
       <itemPath>../src/stack.h</itemPath>
       <itemPath>../src/tcp_server.h</itemPath>
+      <itemPath>../src/tcpclient.h</itemPath>
+      <itemPath>../src/udpserv.h</itemPath>
+      <itemPath>../src/udpclient.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -778,6 +781,9 @@
       <itemPath>../src/app.c</itemPath>
       <itemPath>../src/stack.c</itemPath>
       <itemPath>../src/tcp_server.c</itemPath>
+      <itemPath>../src/tcpclient.c</itemPath>
+      <itemPath>../src/udpserv.c</itemPath>
+      <itemPath>../src/udpclient.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>

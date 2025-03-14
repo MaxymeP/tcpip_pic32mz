@@ -91,7 +91,8 @@ build/default/production/_ext/1832805299/sys_console_uart.o: \
  ../src/config/default/system/console/sys_console.h \
  ../src/config/default/system/console/src/sys_console_uart_definitions.h \
  ../src/app.h ../src/stack.h ../src/app.h \
- ../src/config/default/library/tcpip/tcpip.h ../src/tcp_server.h
+ ../src/config/default/library/tcpip/tcpip.h ../src/tcp_server.h \
+ ../src/tcpclient.h ../src/udpserv.h ../src/udpclient.h
 
 ../src/config/default/system/console/sys_console.h:
 
@@ -286,3 +287,9 @@ build/default/production/_ext/1832805299/sys_console_uart.o: \
 ../src/config/default/library/tcpip/tcpip.h:
 
 ../src/tcp_server.h:
+
+../src/tcpclient.h:
+
+../src/udpserv.h:
+
+../src/udpclient.h:
